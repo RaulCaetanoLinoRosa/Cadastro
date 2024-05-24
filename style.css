@@ -20,5 +20,21 @@
 
 .login-dados{
     display: flex;
-    justify-content: space-between;
+}
+
+.cpf{
+    width: 250px;
+}
+
+#email {
+    width: 250px;
+    margin-right: 5px;
+}
+
+#confirmar {
+    width: 250px;
+}
+
+input {
+    margin-right: 5px;
 }
