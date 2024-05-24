@@ -1,0 +1,24 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dados-de-contato {
+    border: 1px solid grey;
+}
+
+.dados-de-login {
+    border: 1px solid grey;
+}
+
+.login-todos {
+    border: 1px solid grey;
+}
+
+.contato-todos {
+    border: 1px solid grey;
+}
+
+.login-dados{
+    display: flex;
+    justify-content: space-between;
+}
