@@ -38,3 +38,11 @@
 input {
     margin-right: 5px;
 }
+
+#nome {
+    width: 250px;
+}
+
+#sobrenome {
+    width: 250px;
+}
