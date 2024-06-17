@@ -1,166 +1,153 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="index_arquivos/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>allaninha e raulzinho</title>
 </head>
-<body><header>
-    <h1>
-        Cadastre-se
-    </h1>
-</header>
+
+<body>
+    <header>
+        <h1>
+            Cadastre-se
+        </h1>
+    </header>
 
 
     <div class="login-todos">
         <form action="login">
             <div class="dados-de-login">
-                <p>
+                <strong>
                     Dados de Login
-                </p>
+                </strong>
             </div>
-        <div class="">
+            <br>
             <div class="cpf">
                 <label for="cpf">CPF</label>
-                <br>
                 <input type="text" name="cpf" id="cpf" class="cpf">
-                <br>
             </div>
+            <br>
             <div class="login-dados">
-            <div class="email">
-                <label for="email">E-Mail</label>
-                <br>
-                <input type="email" name="email" id="email">
-                <br>
+                <div class="email-senha">
+                    <label>E-Mail
+                    <input type="email" name="email" id="email">
+                    </label>
+                    <label>Confirmar
+                    <input type="text" name="confirmar" id="confirmar">
+                    </label>
+                    <label>Senha
+                    <input type="password" name="senha" id="senha">
+                    </label>
+                    <label for="confirmar-2">Confirmar</label>
+                    <input type="password" name="confirmar-2" id="confirmar-2">
+                </div>
             </div>
-            <div class="confirmar">
-                <label for="confirmar">Confirmar</label>
-                <br>
-                <input type="text" name="confirmar" id="confirmar">
-                <br>
-            </div>
-            <div class="senha">
-                <label for="senha">Senha</label>
-                <br>
-                <input type="password" name="senha" id="senha">
-                <br>
-            </div>
-            <div class="confirmar-2">
-                <label for="confirmar-2">Confirmar</label>
-                <br>
-                <input type="password" name="confirmar-2" id="confirmar-2">
-                <br>
-            </div>
-        </div>
-        </div>
-        </form>
+            <br>
     </div>
-        <form action="Dados do Contato" class="dados">
-            <div class="contato-todos">
+    </form>
+    </div>
+    <form action="Dados do Contato" class="dados">
+        <br>
+        <div class="contato-todos">
             <div class="dados-de-contato">
                 <strong>
                     Dados de contato
                 </strong>
             </div>
-            <div>
+            <br>
+            <div class="nome">
                 <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome">
                 <label for="sobrenome">Sobrenome</label>
                 <input type="text" name="sobrenome" id="sobrenome">
             </div>
-            <div>
+            <br>
+            <div class="dados">
                 <label for="nascimento">Nascimento</label>
                 <input type="date" name="nascimento" id="nascimento">
-            
-                
-                    <label for="rg">RG</label>
-                    <input type="text" name="rg" id="rg">
-                
-                    <label for="sexo">Sexo</label>
-                    <select name="sexo" id="sexo">
-                        <option value="1" selected="selected">Selecione</option>
-                        <option value="M">Masculino</option>
-                        <option value="F">Feminino</option>
-                    </select>
-                </div>
-                <div class="cep">
-                    <label for="cep">CEP</label>
-                    <input type="text" name="cep" id="cep">
-            
-                    <label for="endereco">Endereço</label>
-                    <input type="text" name="endereco" id="endereco">
-               
-                
-                    <label for="n">Nº</label>
-                    <input type="text" name="n" id="n">
-                </div>
-                <div class="bairro">
-                    <label for="bairro">Bairro</label>
-                    <input type="text" name="bairro" id="bairro">
-                
-                    <label for="complemento">complemento</label>
-                    <input type="text" name="complemento" id="complemento">
-                
-                    <label for="cidade">cidade</label>
-                    <input type="text" name="cidade" id="cidade">
-                </div>
-                <div class="estado">
-                    <label for="estado">Estado</label>
-                    <select name="estado" id="estado">
-                        <option value="" selected="selected">Parana</option>
-                    </select>
-                
-                    <label for="ddd">DDD</label>
-                    <input type="text" name="ddd" id="ddd">
-                
-                    <label for="celular">numero</label>
-                    <input type="tel" name="celular" id="celular">
-                    </div>
-                    
-                </div>
-            
-            
-    
+                <label for="rg">RG</label>
+                <input type="text" name="rg" id="rg">
+                <label for="sexo">Sexo</label>
+                <select name="sexo" id="sexo" placeholder="Selecione">
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                </select>
+            </div>
+            <br>
+            <div class="endereco">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep">
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco">
+                <label for="n">Nº</label>
+                <input type="text" name="n" id="n">
+            </div>
+            <br>
+            <div class="complemento">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro">
+                <label for="complemento">complemento</label>
+                <input type="text" name="complemento" id="complemento">
+                <label for="cidade">cidade</label>
+                <input type="text" name="cidade" id="cidade">
+            </div>
+            <br>
+            <div class="extra">
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="" selected="selected">Parana</option>
+                </select>
+                <label for="ddd">DDD</label>
+                <input type="text" name="ddd" id="ddd">
+                <label for="celular">numero</label>
+                <input type="tel" name="celular" id="celular">
+            </div>
+            <br>
+        </div>
     </form>
-    
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+
+    <!-- Code injected by live-server -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
 
 
-</body></html>
+</body>
+
+</html>

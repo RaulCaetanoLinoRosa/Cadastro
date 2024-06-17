@@ -1,16 +1,19 @@
 * {
+    margin: 2px;
+    padding: 0;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.dados-de-contato {
+input {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.login-todos { 
     border: 1px solid grey;
 }
 
-.dados-de-login {
-    border: 1px solid grey;
-}
-
-.login-todos {
+.dados-de-login { 
     border: 1px solid grey;
 }
 
@@ -18,31 +21,34 @@
     border: 1px solid grey;
 }
 
-.login-dados{
-    display: flex;
+.dados-de-contato {
+    border: 1px solid grey;
 }
 
-.cpf{
-    width: 250px;
+#cpf {
+    width: 15%;
 }
 
-#email {
-    width: 250px;
-    margin-right: 5px;
+#email, #confirmar {
+    width: 15%;
 }
 
-#confirmar {
-    width: 250px;
+#nome, #sobrenome {
+    width: 30%;
 }
 
-input {
-    margin-right: 5px;
+#nascimento, #rg {
+    width: 35%;
 }
 
-#nome {
-    width: 250px;
+#cep, #endereco, #n {
+    width:25% ;
 }
 
-#sobrenome {
-    width: 250px;
+#bairro, #complemento, #cidade {
+    width: 25%;
+}
+
+#estado, #ddd, #celular {
+    width: 25%;
 }
