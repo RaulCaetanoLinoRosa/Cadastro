@@ -27,10 +27,13 @@ input {
 
 #cpf {
     width: 15%;
+    display: block;
+
 }
 
 #email, #confirmar {
     width: 15%;
+    display: block;
 }
 
 #nome, #sobrenome {
@@ -51,4 +54,8 @@ input {
 
 #estado, #ddd, #celular {
     width: 25%;
+}
+#msgCPF{
+    visibility: hidden;
+    color: red;
 }
